@@ -1,0 +1,1029 @@
+LandisData   "Initial Communities"
+MapCode 	1
+EN	20      40											
+MapCode 	2
+PG	20												
+MapCode 	3
+EN	20												
+MapCode 	4
+PT	20												
+MapCode 	5
+EN      100    120     140    160     180    200
+ML	80   100     120	140							
+MapCode 	6		
+EN	100    120     140    160     180    200								
+MapCode 	7		
+BP	20												
+MapCode 	8		
+BP	20      40	100   120  140								
+MapCode 	9		
+EN	60   80											
+MapCode 	10		
+EN	80    100    120     140    160     180    200		
+MapCode 	11		
+PT	80      100										
+MapCode 	12		
+EN	40      60											
+MapCode 	13		
+EN	80      100										
+MapCode 	14		
+EN	20      40      60   80						
+MapCode 	15		
+EN	40      60
+PT	40      60										
+MapCode 	16		
+EN	20
+PG	20											
+MapCode 	17		
+PG	60   80											
+MapCode 	18		
+EB	20												
+MapCode 	19		
+EN	   60   80
+PG	   60   80										
+MapCode 	20		
+EN	120	140	160	180	200
+PG	120      140				
+MapCode 	21		
+EN	100    120    140    160   180   200					
+MapCode 	22		
+EN	80      100
+PT	80      100									
+MapCode 	23		
+PT	60   80											
+MapCode 	24		
+EN	80    100
+ML	80      100									
+MapCode 	25		
+BP	60   80											
+MapCode 	26	
+PG	80      100								
+MapCode 	27		
+EN	20      40
+PG	20      40										
+MapCode 	28		
+EN	20      40
+SB	20      40										
+MapCode 	29		
+EN	80      100    120     140    160     180    200
+SB	80      100    120	140		
+MapCode 	30		
+PG	20      40											
+MapCode 	31		
+ML	20												
+MapCode 	32		
+EN	80    100
+PG	80      100									
+MapCode 	33		
+PG	60   80
+PT	60   80										
+MapCode 	34		
+EN	20      40
+PT	20      40										
+MapCode 	35		
+EB	20
+PG	20											
+MapCode 	36		
+PG	80    100
+PT	80      100									
+MapCode 	37		
+PG	20
+PT	20											
+MapCode 	38		
+EB	20      40											
+MapCode 	39		
+EN	60      80
+PT	60   80										
+MapCode 	40		
+EN	80    100  120     140    160     180    200
+PG	80    100   120	140	
+PT	80    100   120	
+MapCode 	41		
+PG	20      40
+PT	20      40										
+MapCode 	42		
+PG	40      60
+PT	40      60										
+MapCode 	43		
+EN	40      60
+PT	40      60					
+MapCode 	44		
+EN	80    100  120     140    160     180    200
+PT	80    100   120		
+MapCode 	45		
+PT	40      60											
+MapCode 	46		
+PG	40      60											
+MapCode 	47		
+ML	20      40											
+MapCode 	48		
+EN	80    100
+PG	80    100
+PT	80      100								
+MapCode 	49		
+BP	40      60
+EN	40      60										
+MapCode 	50		
+BP	60   80
+SB	60   80										
+MapCode 	51		
+BP	20      40      60   80
+EN	20      40      60   80
+PG	20      40      60   80				
+MapCode 	52		
+EN	60   80
+PG	60   80
+PT	60   80									
+MapCode 	53		
+BP	80      100										
+MapCode 	54		
+EN	40      60
+SB	40      60										
+MapCode 	55		
+PT	20      40											
+MapCode 	56		
+EN	100	    120     140    160     180    200
+PG	100		120	140						
+MapCode 	57		
+EN	20      40      60   80	
+PG	20      40      60   80					
+MapCode 	58		
+EN	80      100    120     140    160     180    200
+PG	80      100     120	140	
+MapCode 	60		
+EN	20      40	
+ML	20      40										
+MapCode 	61		
+EN	20      40
+SB	20      40
+BP	20      40									
+MapCode 	62		
+EN	20      40      60   80
+PT	20      40      60   80					
+MapCode 	63		
+EN	40      60
+PG	40      60										
+MapCode 	64		
+EN	80      100    120     140    160     180    200	
+ML	80      100     120	140			
+MapCode 	65		
+BP	20
+PT	20											
+MapCode 	66		
+BP	60   80
+EN	60   80
+PT	60   80									
+MapCode 	67		
+EN	60   80
+SB	60   80										
+MapCode 	68		
+BP	80    100
+PT	80    100
+SB	80      100								
+MapCode 	69		
+BP	80    100
+EN	80    100
+PT	80      100								
+MapCode 	70		
+BP	60   80
+PG	60   80
+PT	60   80									
+MapCode 	71		
+EN	60   80
+SB	60   80
+BP	60   80									
+MapCode 	72		
+BP	40      60
+PT	40      60
+SB	40      60									
+MapCode 	73		
+ML	80      100										
+MapCode 	74		
+EN	40      60
+ML	40      60										
+MapCode 	75		
+EN	60   80
+ML	60   80										
+MapCode 	76		
+BP	80    100
+EN	80    100
+PG	80      100								
+MapCode 	77		
+BP	60   80
+EN	60   80										
+MapCode 	78		
+BP	40      60
+EN	40      60
+SB	40      60									
+MapCode 	79		
+EN	80    100
+PT	80    100
+SB	80      100								
+MapCode 	80		
+BP	40      60
+PG	40      60
+PT	40      60									
+MapCode 	81		
+BP	40      60
+PT	40      60										
+MapCode 	82		
+EN	80    100
+SB	80      100									
+MapCode 	83		
+EN	60   80
+ML	60   80
+PT	60   80									
+MapCode 	84		
+BP	60   80
+PT	60   80										
+MapCode 	85		
+PG	80    100
+SB	80      100									
+MapCode 	86		
+EN	60   80
+SB	60   80
+PT	60   80									
+MapCode 	87		
+BP	60   80
+PT	60   80
+SB	60   80									
+MapCode 	88		
+EN	60   80
+PT	60   80
+SB	60   80									
+MapCode 	89		
+BP	80    100
+PG	80    100
+SB	80      100								
+MapCode 	90		
+BP	60   80
+EN	60   80
+PG	60   80									
+MapCode 	91		
+BP	80    100
+EN	80      100									
+MapCode 	92		
+BP	80    100
+PG	80    100
+PT	80      100								
+MapCode 	93		
+EN	80    100
+SB	80    100
+BP	80      100								
+MapCode 	94		
+PG	60   80
+SB	60   80										
+MapCode 	95		
+BP	80    100
+PT	80      100									
+MapCode 	96		
+BP	60   80
+SB	60   80
+PG	60   80
+MapCode 	97		
+ML	60   80											
+MapCode 	98		
+BP	20      40
+EN	20      40
+PT	20      40									
+MapCode 	99		
+PT	80    100
+SB	80      100									
+MapCode 	100		
+BP	40      60
+EN	40      60
+PT	40      60									
+MapCode 	101		
+EN	20
+ML	20											
+MapCode 	102		
+EN	100	    120     140    160     180    200
+ML	100	     120	140					
+MapCode 	103	
+EN	20
+PT	20
+MapCode 	104		
+EN	20
+SB	100	120	140  
+MapCode 	105		
+EN	20      40
+PT	20      40
+SB	20      40									
+MapCode 	106		
+PG	20       40
+MapCode 	107	
+EN	20      40
+PG	20      40
+PT	20      40									
+MapCode 	108		
+EN	20      40      60   80
+ML	20      40      60   80					
+MapCode 	109		
+EN	20      40      60   80
+SB	20      40      60   80					
+MapCode 	110		
+EN	100	    120     140    160     180    200
+SB	100	     120	140							
+MapCode 	111		
+PT	20      40
+ML	20      40										
+MapCode 	112		
+EN	20
+PG	20
+PT	20										
+MapCode 	113		
+ML	20      40
+PT	20      40										
+MapCode 	114		
+EN	20      40
+ML	20      40
+PT	20      40									
+MapCode 	115		
+EN	20      40      60   80
+PT	20      40      60   80
+SB	20      40      60   80				
+MapCode 	116		
+EN	100	    120     140    160     180    200
+PT	100	     120				
+MapCode 	117		
+EN	20
+PT	20
+SB	20										
+MapCode 	118		
+EN	20      40
+SB	20      40
+PT	20      40									
+MapCode 	119		
+PT	20      40      60   80						
+MapCode 	120		
+EB	20
+ML	20											
+MapCode 	121		
+ML	100   120     140									
+MapCode 	122		
+PT	80   100   120   								
+MapCode 	123		
+EN	40	80    100
+PT	40	80      100								
+MapCode 	124		
+EN	40	60   80    100   120							
+MapCode 	125		
+PT	40	80    100
+SB	40	80      100								
+MapCode 	126		
+SB	20      40											
+MapCode 	127		
+PT	20
+SB	20											
+MapCode 	128		
+EN	40      60	
+ML	40      60	
+PT	40      60									
+MapCode 	129		
+BP	20      40
+PT	20      40										
+MapCode 	130		
+BP	40      60											
+MapCode 	131		
+BP	20      40      60   80
+EN	20      40      60   80
+PT	20      40      60   80				
+MapCode 	132		
+ML	40      60											
+MapCode 	133		
+BP	20      40
+PG	20      40										
+MapCode 	134		
+BP	20      40
+PG	20      40
+PT	20      40									
+MapCode 	135		
+BP	20      40
+EN	20      40
+PG	20      40									
+MapCode 	136		
+BP	80      100     120  140 
+PT	80      100     120		
+MapCode 	137		
+BP	80	100	     120	140
+EN	80	100	    120     140    160     180    200
+PT	80      100     120	
+MapCode 	138		
+BP	80	100	     120	140
+EN	80	100	    120     140    160     180    200	
+MapCode 	139		
+ML	20      40      60   80						
+MapCode 	140		
+BP	20      40
+ML	20      40
+PG	20      40									
+MapCode 	141		
+PG	80      100     120 140 
+PT	80      100     120	
+MapCode 	142		
+BP	20      40      60   80						
+MapCode 	143		
+BP	20      40      60   80
+PT	20      40      60   80					
+MapCode 	144		
+BP	20      40      60   80
+EN	80	100	    120     140    160     180    200
+PG	80      100     120 140 
+MapCode 	145		
+EN	20      40      60   80	
+PG	20      40      60   80	
+PT	20      40      60   80				
+MapCode 	146		
+ML	40      60
+PT	40      60										
+MapCode 	147		
+BP	60   80
+EN	60   80
+ML	60   80									
+MapCode 	148		
+ML	20      40
+PG	20      40										
+MapCode 	149		
+EB	20      40      60   80
+PG	20      40      60   80					
+MapCode   150 			
+BP	20      40      60   80
+EN	20      40      60   80					
+MapCode 	151		
+BP	20      40	
+EN	20      40										
+MapCode 	152		
+EN	20      40      60   80
+SB	20      40      60   80
+BP	20      40      60   80				
+MapCode 	153		
+BP	80      100    120	140
+PG	80      100    120	140	
+PT	80      100    120	
+MapCode 	154		
+PT	80      100     120 			
+MapCode 	155		
+EN	20      40      60   80
+ML	20      40      60   80
+PT	20      40      60   80				
+MapCode 	156		
+EN	40      60	
+SB	40      60	
+BP	40      60									
+MapCode 	157		
+PG	100    120	140						
+MapCode 	158		
+PT	100	     120 						
+MapCode 	159		
+EB	20      40	
+PG	20      40										
+MapCode 	160		
+BP	20      40      60   80
+SB	20      40      60   80					
+MapCode 	161		
+EN	80      100    120     140		160	180	200
+ML	80      100    120     140
+PT	80      100    120 
+MapCode 	162		
+BP	40      60
+EN	40      60
+ML	40      60									
+MapCode 	163		
+BP	40      60
+ML	40      60
+PT	40      60									
+MapCode 	164		
+ML	100        120	140					
+MapCode 	165		
+ML	80    100   120	140			
+MapCode 	166		
+SB	80      100										
+MapCode 	167		
+EN	20      40
+ML	20      40
+PG	20      40									
+MapCode 	168		
+BP	100   120	140
+EN	100   120	140
+PG	100   120	140				
+MapCode 	169		
+BP	100   120	140
+EN	100  120     140    160     180    200				
+MapCode 	170		
+BP	20      40      60   80
+EN	20      40      60   80
+ML	20      40      60   80				
+MapCode 	171		
+ML	80    100
+PT	80      100									
+MapCode 	172		
+BP	20      40
+EN	20      40
+ML	20      40									
+MapCode 	173		
+BP	20      40      60   80	
+PG	20      40      60   80	
+PT	20      40      60   80				
+MapCode 	174		
+EN	100  120     140    160     180    200
+PT	100	    120								
+MapCode 	175		
+BP	60   80	
+ML	60   80	
+PT	60   80									
+MapCode 	176		
+PG	20      40      60   80
+PT	20      40      60   80					
+MapCode 	177		
+BP	80    100
+PG	80      100									
+MapCode 	178		
+EN	40      60   80
+PT	40      60   80								
+MapCode 	179		
+EN	80      100     120     140    160     180    200
+PT	80      100      120
+SB	80      100      120	140	
+MapCode 	180		
+EN	40	60   80      100    120 140		160	180	200
+PT	40	60   80      100    120						
+MapCode 	181		
+EN	40      60   80
+PG	40      60   80
+PT	40      60   80							
+MapCode 	182		
+BP	80    100   120	140
+SB	80    100   120	140	
+MapCode 	183		
+BP	20      40	60   80
+PT	20      40	60   80							
+MapCode 	184		
+EN	80    100  120     140    160     180    200
+SB	80    100   120	140	
+BP	80    100   120	140	
+MapCode 	185		
+PT	40      60   80									
+MapCode 	186		
+ML	40      60   80	
+PT	40      60   80								
+MapCode 	187		
+PT	20      40	60   80								
+MapCode 	188		
+EN	20      40      60
+PT	20      40      60								
+MapCode 	189		
+EN	80    100  120     140    160     180    200								
+MapCode 	190		
+EN	40	60   80    100   120
+ML	40	60   80    100   120						
+MapCode 	191		
+SB	100   120	140						
+MapCode 	192		
+BP	20      40
+SB	20      40										
+MapCode 	193		
+BP	20      40      60   80
+PT	20      40      60   80
+SB	20      40      60   80				
+MapCode 	194		
+BP	60   80
+PG	60   80										
+MapCode 	195		
+BP	20
+PG	20
+PT	20										
+MapCode 	196		
+EN	80    100
+SB	80    100
+PT	80      100								
+MapCode 	197		
+EB	80    100   120	140 160
+SB	80    100   120	140
+MapCode 	198		
+BP	20       40
+PT	20       40											
+MapCode 	199		
+ML	20
+PG	20											
+MapCode 	200		
+EN	60   80      100								
+MapCode 	201		
+PG	60   80    100
+PT	60   80      100							
+MapCode 	202		
+EN	60   80    100
+PT	60   80      100							
+MapCode 	203		
+EN	60   80    100
+PG	60   80    100
+PT	60   80      100						
+MapCode 	204		
+EN	40      60   80	
+PG	40      60   80								
+MapCode 	205		
+PT	40      60
+SB	40      60										
+MapCode 	208		
+EN	40      60   80									
+MapCode 	209		
+BP	40      60
+EN	40      60
+PG	40      60									
+MapCode 	210		
+BP	20      40
+PT	20      40
+SB	20      40									
+MapCode 	211		
+PG	20      40      60									
+MapCode 	212		
+BP	40      60
+PG	40      60										
+MapCode 	213		
+BP	40      60   80	
+EN	40      60   80								
+MapCode 	214		
+BP	80    100
+EN	80    100
+SB	80      100								
+MapCode 	215		
+BP	40      60
+SB	40      60										
+MapCode 	216		
+EN	40      60
+PT	40      60
+SB	40      60									
+MapCode 	217		
+PG	20      40      60   80						
+MapCode 	218		
+EB	60   80											
+MapCode 	219		
+SB	100   120	140							
+MapCode 	220		
+SB	80    100   120	140		
+MapCode 	221		
+EN	100  120     140    160     180    200	
+SB	100   120	140					
+MapCode 	222		
+BP	20      40      60   80
+EN	20      40      60   80
+SB	20      40      60   80				
+MapCode 	223		
+BP	40	80      100
+PT	40	80      100
+SB	40	80      100							
+MapCode 	224		
+EN	100  120     140    160     180    200
+SB	100   120	140	
+PT	100   120		
+MapCode 	225		
+PT	20      40	
+SB	20      40										
+MapCode 	226		
+EB	100   120   140   160
+SB	100   120   140								
+MapCode 	227		
+BP	20      40
+ML	20      40
+PT	20      40									
+MapCode 	228		
+BP	20      40	
+ML	20      40										
+MapCode 	229		
+BP	20      40      60   80
+ML	20      40      60   80
+PT	20      40      60   80				
+MapCode 	230		
+BP	20      40      60   80
+PG	20      40      60   80					
+MapCode 	231		
+PG	20      40
+SB	20      40										
+MapCode 	232		
+SB	20      40      60   80						
+MapCode 	233		
+PG	100   120	140								
+MapCode 	234		
+BP	40	80      100
+EN	40	80      100								
+MapCode 	235		
+PG	80    100   120	140	
+MapCode 	236		
+SB	40      60											
+MapCode 	237		
+BP	40      60   80
+PG	40      60   80								
+MapCode 	238		
+ML	20      40
+BP	20      40										
+MapCode 	239		
+EN	100  120     140    160     180    200
+PT	100   120
+SB	100   120	140			
+MapCode 	240		
+ML	20      40      60   80
+PT	20      40      60   80					
+MapCode 	241		
+SB	20												
+MapCode 	242		
+PT	80    100   120	
+SB	80    100   120	140	
+MapCode 	243		
+EN	80      100
+ML	80      100
+PT	80      100								
+MapCode 	244		
+PT	80      100
+SB	80      100										
+MapCode 	245		
+EN	40      60
+SB	40      60
+PT	40      60									
+MapCode 	246		
+BP	80    100   120	140	
+EN	80    100  120     140    160     180    200
+SB	80    100   120	140	
+MapCode 	247		
+PG	20      40	60   80
+PT	20      40	60   80							
+MapCode 	248		
+BP	80    100   120	140
+EN	100  120     140    160     180    200						
+MapCode 	249		
+PT	20       40												
+MapCode 	250		
+ML	20      40
+PG	20      40
+PT	20      40									
+MapCode 	251		
+BP	20      40
+PG	20      40
+SB	20      40									
+MapCode 	252		
+EN	20       40
+PT	20       40											
+MapCode 	254		
+EN	80    100  120     140    160     180    200
+SB	80    100   120	140
+PT	80    100   120
+MapCode 	255		
+ML	40      60
+PG	40      60										
+MapCode 	256		
+PT	40      60   80
+SB	40      60   80								
+MapCode 	257		
+EN	20      40	60   80
+PT	20      40	60   80							
+MapCode 	258		
+BP	20       40	
+PG	20       40	
+PT	20       40										
+MapCode 	259		
+BP	80    100   120	140	
+PT	80    100   120	
+SB	80    100   120	140	
+MapCode 	260		
+SB	60   80											
+MapCode 	261		
+EB	60   80
+PG	60   80										
+MapCode 	262		
+EB	20											
+EN	20											
+MapCode 	263		
+BP	20
+EN	20
+PT	20										
+MapCode 	264		
+ML	60   80
+PT	60   80										
+MapCode 	265		
+ML	20
+PT	20											
+MapCode 	266		
+EN		100   120	140      	160	180	200
+PT		100   120	
+SB		100   120	140					
+MapCode 	267		
+BP	20	
+EN	20	
+PG	20										
+MapCode 	268		
+BP	20	
+PT	20	
+SB	20										
+MapCode 	269		
+BP	20       40
+EN	20       40
+PT	20       40										
+MapCode 	270		
+BP	20
+EN	20
+ML	20										
+MapCode 	271		
+BP	60   80
+EN	60   80
+SB	60   80									
+MapCode 	272		
+BP	20       40
+PT	20       40
+SB	20       40										
+MapCode 	273		
+EN	20      40      60   80	
+SB	20      40      60   80	
+PT	20      40      60   80				
+MapCode 	274		
+BP	20      40	
+EN	20      40	
+SB	20      40									
+MapCode 	275		
+BP	20
+EN	20											
+MapCode 	276		
+EN	20
+ML	20
+PT	20										
+MapCode 	277	
+BP	20
+EN	20
+SB	20										
+MapCode 	278	
+BP	40      60	
+PT	40      60	
+EN	40      60									
+MapCode 	279	
+PT	20      40      60   80
+SB	20      40      60   80					
+MapCode 	281		
+EN	100   120	140      	160	180	200
+SB	100   120	140    
+BP	100   120	140     
+MapCode 	282		
+BP	60   80    100
+PT	60   80    100
+SB	60   80      100						
+MapCode 	283		
+EN	20	
+SB	20	
+PT	20										
+MapCode 	284		
+EN	80	100   120	140	160	180	200
+PT	80	100   120						
+MapCode 	285		
+ML	20      40      60   80
+PG	20      40      60   80					
+MapCode 	286		
+EB	20      40	
+SB	20      40										
+MapCode 	287		
+PT	20      40      60									
+MapCode 	288		
+EN	100   120	140      	160	180	200
+PG	100   120	140    
+PT	100   120					
+MapCode 	289		
+BP	20	
+SB	20											
+MapCode 	290		
+EN	20	
+SB	20	
+BP	20										
+MapCode 	291		
+ML	20	
+PG	20	
+PT	20										
+MapCode 	292		
+BP	40	60   80    100   120  140						
+MapCode 	293		
+PT	40	60   80    100   120							
+MapCode 	294		
+EN	100   120	140      	160	180	200
+SB	100   120	140    
+BP	100   120	140     				
+MapCode 	295		
+BP	100   120	140    								
+MapCode 	296		
+BP	100   120	
+PT	100   120							
+MapCode 	297		
+BP	100   120	140    
+SB	100   120	140    						
+MapCode 	298		
+BP	100   120	140    
+EN	100   120	140  	160	180	200   
+PT	100   120	   						
+MapCode 	299		
+BP	100   120     140
+PT	100   120	
+SB	100   120     140						
+MapCode 	300		
+BP	100   120	140  
+EN	100   120	140  	160	180	200 
+SB	100   120	140  					
+MapCode 	302		
+BP	100   120	140  	
+EN	100   120	140  	160	180	200 
+PG	100   120	140 				
+MapCode 	303		
+EN	20       40
+PG	20       40
+PT	20       40										
+MapCode 	304		
+BP	40      60
+ML	40      60										
+MapCode 	305		
+BP	100   120	140 
+PG	100   120	140 						
+MapCode 	306		
+PT	20      40      60   80
+ML	20      40      60   80					
+MapCode 	307		
+BP	20
+PG	20											
+MapCode 	308		
+ML	20       40
+PT	20       40											
+MapCode 	309		
+BP	100   120	140
+SB	100   120	140			
+MapCode 	310		
+BP	40      60   80
+EN	40      60   80
+PT	40      60   80							
+MapCode 	311		
+BP	40      60	
+PG	40      60	
+SB	40      60									
+MapCode 	312		
+PG	20	
+SB	20											
+MapCode 	313		
+EN	20      40	60   80	
+ML	20      40	60   80	
+PT	20      40	60   80						
+MapCode 	314		
+PG	40      60
+SB	40      60										
+MapCode 	315	
+BP	20      40      60   80	
+ML	20      40      60   80					
+MapCode 	316	
+EN	20       40												
+MapCode 	317		
+EB	40	60   80    100   120
+SB	40	60   80    100   120						
+MapCode 	318		
+EN	40	60   80    100   120
+SB	40	60   80    100   120						
+MapCode 	319		
+SB	40	60   80    100   120							
+MapCode 	320		
+BP	40	60   80    100     	120
+SB	40	60   80      100     120						
+MapCode 	321		
+BP	40	60   80    100     	120
+EN	40	60   80    100     	120						
+MapCode 	322		
+EB	100	     120	140      160
+PG	100	     120	140							
+MapCode 	323		
+EN	20      40	60   80	
+PT	20      40	60   80	
+SB	20      40	60   80						
+MapCode 	324		
+EN	20       40	
+ML	20       40											
+MapCode 	325		
+EB	20       40												
+MapCode 	326		
+EN	60   80	100   120								
+MapCode 	327		
+EB	80    100   120	140		160
+EN	80    100  120     140    160     180    200	
+MapCode 	331		
+BP	80    100   120	140		
+MapCode 	332		
+PG	100   120	140	
+PT	100		120						
+MapCode 	333		
+EB	80    100
+PT	80      100									
+MapCode 	334		
+EB	100   120	140		160	
+EN	100  120     140    160     180    200						
+MapCode 	337		
+EB	80    100
+PG	80      100									
+MapCode 	339		
+EB	100   120									
+MapCode 	342		
+EN	40	60   80    100   120	
+PT	40	60   80    100   120	
+SB	40	60   80    100   120					
+MapCode 	343		
+EN	40	60   80      100   120  140    160 180  200
+SB	40	60   80      100   120  140 
+PT	40	60   80      100   120					
+MapCode 	344		
+EB	80      100										
+MapCode   32767

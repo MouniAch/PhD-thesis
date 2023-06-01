@@ -1,0 +1,267 @@
+LandisData  "Biomass Harvest"
+Timestep    20
+ManagementAreas "managedareaMU1.img"
+Stands      "Stand.img" 
+<<species legend:
+<<EB	Picea glauca
+<<EN	Picea mariana
+<<ML	Larix laricina
+<<BP	Betula papyrifera
+<<PG	Pinus banksiana
+<<PT	Populus tremuloides
+<<SB	Abies balsamea
+>> Prescription 1
+>> ----------------------------------------------------------------------------------------------------------------------
+>>intensive management: clear cut 100%
+>>---------------------------------
+Prescription clear_cut_regeneration
+>>Stand Rankings  
+StandRanking    Economic
+>>This parameter is the species’ relative economic value (rank), with higher values representing higher value. We assumed 100 for coniferous species since they are the most harvested species.
+>> Species   Economic Rank  Minimum Age  
+>> -------   -------------  -----------
+EB	        100             70    
+EN	        100             70   
+ML              100             50   
+BP	        50              50
+PG	        100             60 
+PT	        50              50
+SB	        100             50
+>>Stand Qualifications  
+>>Site Selection
+SiteSelection Complete  << reflecting clear cut all sites (cells) within a stand are harvested.
+CohortsRemoved  ClearCut
+
+>> Prescription 2 <<afforestation EN after clear cut
+Prescription clear_cut_afforestationEN
+>>Stand Rankings  
+StandRanking    Economic
+>>This parameter is the species’ relative economic value (rank), with higher values representing higher value. We assumed 100 for coniferous species since they are the most harvested species.
+>> Species   Economic Rank  Minimum Age  
+>> -------   -------------  -----------
+EB	        100             70    
+EN	        100             70   
+ML              100             50   
+BP	        50              50
+PG	        100             60 
+PT	        50              50
+SB	        100             50
+>>Stand Qualifications  
+>>Site Selection
+SiteSelection Complete  << reflecting clear cut all sites (cells) within a stand are harvested.
+CohortsRemoved  ClearCut
+>> plant:  continou to plant the most used economic species
+Plant		EN 
+>> Prescription 3 <<afforestation PG after clear cut
+Prescription clear_cut_afforestationPG
+>>Stand Rankings  
+StandRanking    Economic
+>>This parameter is the species’ relative economic value (rank), with higher values representing higher value. We assumed 100 for coniferous species since they are the most harvested species.
+>> Species   Economic Rank  Minimum Age  
+>> -------   -------------  -----------
+EB	        100             70    
+EN	        100             70   
+ML              100             50   
+BP	        50              50
+PG	        100             60 
+PT	        50              50
+SB	        100             50
+>>Stand Qualifications  
+>>Site Selection
+SiteSelection Complete  << reflecting clear cut all sites (cells) within a stand are harvested.
+CohortsRemoved  ClearCut
+>> plant:  continou to plant the most used economic species
+Plant		PG 
+>> Prescription 4 <<afforestation ML after clear cut
+Prescription clear_cut_afforestationML
+>>Stand Rankings  
+StandRanking    Economic
+>>This parameter is the species’ relative economic value (rank), with higher values representing higher value. We assumed 100 for coniferous species since they are the most harvested species.
+>> Species   Economic Rank  Minimum Age  
+>> -------   -------------  -----------
+EB	        100             70    
+EN	        100             70   
+ML              100             50   
+BP	        50              50
+PG	        100             60 
+PT	        50              50
+SB	        100             50
+>>Stand Qualifications  
+>>Site Selection
+SiteSelection Complete  << reflecting clear cut all sites (cells) within a stand are harvested.
+CohortsRemoved  ClearCut
+>> plant:  continou to plant the most used economic species
+Plant		ML
+>> Prescription 5<<afforestation EB after clear cut
+Prescription clear_cut_afforestationEB
+>>Stand Rankings  
+StandRanking    Economic
+>>This parameter is the species’ relative economic value (rank), with higher values representing higher value. We assumed 100 for coniferous species since they are the most harvested species.
+>> Species   Economic Rank  Minimum Age  
+>> -------   -------------  -----------
+EB	        100             70    
+EN	        100             70   
+ML              100             50   
+BP	        50              50
+PG	        100             60 
+PT	        50              50
+SB	        100             50
+>>Stand Qualifications  
+>>Site Selection
+SiteSelection Complete  << reflecting clear cut all sites (cells) within a stand are harvested.
+CohortsRemoved  ClearCut
+>> plant:  continou to plant the most used economic species
+Plant		EB
+>> Prescription 6
+>> ----------------------------------------------------------------------------------------------------------------------
+>>intensive management: CPRS95
+>>---------------------------------
+Prescription CPRS95	
+StandRanking    Economic
+>> Species   Economic Rank  Minimum Age  
+>> -------   -------------  -----------
+EB	        100             70    
+EN	        100             70   
+ML              100             50   
+BP	        50              50
+PG	        100             60 
+PT	        50              50
+SB	        100             50
+SiteSelection CompleteStandSpread 1  22.11  <<   Minimum  and Maximum Target Size in hectares, from geodatabase we consider 1 as min and MEAN of max
+CohortsRemoved  		SpeciesList 
+>> Species Selection
+>> ------- ---------
+EB    1-20(0%) 21-180(100%)    
+EN    1-20(0%) 21-220(100%)	        
+ML    1-20(0%) 21-180(100%)       
+BP    1-20(0%) 21-160(100%)     
+PG    1-20(0%) 21-150(100%)         
+PT    1-20(0%) 21-140(100%)        
+SB    1-20(0%) 21-160(100%)	
+
+>>-------------------------------
+>>extensive management PC75, PC50, & PC25
+
+>> Prescription 7
+Prescription 	PC75 
+StandRanking    Economic
+>> Species   Economic Rank  Minimum Age  
+>> -------   -------------  -----------
+EB	        100             80    
+EN	        100             80   
+ML              100             70   
+BP	        50              70
+PG	        100             60 
+PT	        50              50
+SB	        100             50
+SiteSelection  PartialStandSpread 1  10
+CohortsRemoved  		SpeciesList 
+>> Species Selection
+>> ------- ---------
+EB    1-70(0%) 71-180(75%)  << 25% of the commercial stand    
+EN    1-70(0%) 71-220(75%)	        
+ML    1-50(0%) 51-180(75%)       
+BP    1-50(0%) 51-160(75%)     
+PG    1-60(0%) 61-145(75%)         
+PT    1-50(0%) 51-140(75%)        
+SB    1-50(0%) 51-160(75%)
+
+>> Prescription 8
+<<commercial thinning   
+Prescription 	PC50 
+StandRanking    Economic
+>> Species   Economic Rank  Minimum Age  
+>> -------   -------------  -----------
+EB	        100             70    
+EN	        100             70   
+ML              100             50   
+BP	        50              50
+PG	        100             60 
+PT	        50              50
+SB	        100             50
+SiteSelection  PartialStandSpread 1 8.9
+CohortsRemoved  		SpeciesList 
+>> Species Selection
+>> ------- ---------
+EB    1-70(0%) 71-180(50%)  << 50% of the commercial stand    
+EN    1-70(0%) 71-220(50%)	        
+ML    1-50(0%) 51-180(50%)       
+BP    1-50(0%) 51-160(50%)     
+PG    1-60(0%) 61-145(50%)         
+PT    1-50(0%) 51-140(50%)        
+SB    1-50(0%) 51-160(50%)
+
+>> Prescription 9
+<<commercial thinning   
+Prescription 	PC25 
+StandRanking    Economic
+>> Species   Economic Rank  Minimum Age  
+>> -------   -------------  -----------
+EB	        100             70    
+EN	        100             70   
+ML              100             50   
+BP	        50              50
+PG	        100             60 
+PT	        50              50
+SB	        100             50
+SiteSelection  PartialStandSpread 1  8.9
+CohortsRemoved  		SpeciesList 
+>> Species Selection
+>> ------- ---------
+EB    1-70(0%) 71-180(25%)  << 25% of the commercial stand    
+EN    1-70(0%) 71-220(25%)	        
+ML    1-50(0%) 51-180(25%)       
+BP    1-50(0%) 51-160(25%)     
+PG    1-60(0%) 61-145(25%)         
+PT    1-50(0%) 51-140(25%)        
+SB    1-50(0%) 51-160(25%)
+
+>> PRESCRIPTION IMPLEMENTATION 
+HarvestImplementations
+>> scenario 1 : only  clear_cut_regeneration and CPRS95 activated =extermly intensive
+>>  Mgmt Area   Prescription    Harvest Area    Begin Time  End Time
+>>  ---------   ------------    ------------    ----------  --------
+1	clear_cut_regeneration	0.5543%	1
+1	clear_cut_afforestationEN	0.4249%	1
+1	clear_cut_afforestationPG	0.1518%	1
+1	clear_cut_afforestationML	0.0182%	1
+1	clear_cut_afforestationEB	0.0121%	1
+1	CPRS95	0.1270%	1
+1	PC75	0.0120%	1
+1	PC50	0.0000%	1
+1	PC25	0.0540%	1
+2	clear_cut_regeneration	2.5950%	1
+2	clear_cut_afforestationEN	0.1575%	1
+2	clear_cut_afforestationPG	0.0562%	1
+2	clear_cut_afforestationML	0.0067%	1
+2	clear_cut_afforestationEB	0.0045%	1
+2	CPRS95	0.6270%	1
+2	PC75	0.0060%	1
+>>2	PC50	0.0000%	1
+2	PC25	0.0670%	1
+3	clear_cut_regeneration	3.8290%	1
+3	clear_cut_afforestationEN	2.2305%	1
+3	clear_cut_afforestationPG	0.7966%	1
+3	clear_cut_afforestationML	0.0956%	1
+3	clear_cut_afforestationEB	0.0637%	1
+3	CPRS95	2.2700%	1
+3	PC75	0.1900%	1
+3	PC50	0.0270%	1
+3	PC25	0.1340%	1
+4	clear_cut_regeneration	4.0810%	1
+4	clear_cut_afforestationEN	4.7142%	1
+4	clear_cut_afforestationPG	1.6837%	1
+4	clear_cut_afforestationML	0.2020%	1
+4	clear_cut_afforestationEB	0.1347%	1
+4	CPRS95	1.0150%	1
+4	PC75	0.0120%	1
+4	PC50	0.0030%	1
+4	PC25	0.1030%	1
+
+
+>> OUTPUTS
+PrescriptionMaps    	harvest/prescripts-{timestep}.img
+EventLog        	harvest/harvest-event-test-log.csv
+SummaryLog	    	harvest/harvest-summary-log.csv
+>>BiomassMaps         harvest/biomass-removed-{timestep}.img
+ 
