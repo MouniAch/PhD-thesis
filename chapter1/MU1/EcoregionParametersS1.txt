@@ -1,0 +1,11 @@
+LandisData EcoregionParameters
+EcoregionParameters   SoilType   Latitude   RootingDepth   PrecLossFrac   LeakageFrac   PrecIntConst   SnowSublimFrac   ClimateFileName
+eco5a_Clay             CLAY       50       1000           0.1           1            0.1              0.15   climat_inputS1eco5a_RCP85.txt 
+eco5a_ClayLoam         CLLO	  50       1000           0.1           1            0.1              0.15   climat_inputS1eco5a_RCP85.txt 
+eco5a_Loam             LOAM	  50       1000           0.1           1            0.1              0.15   climat_inputS1eco5a_RCP85.txt 
+eco6a_Clay             CLAY       49       1000           0.1           1            0.1              0.15   climat_inputS1eco6a_RCP85.txt  
+eco6a_SandClayLoam     SNCL       49       1000           0.1           1            0.1              0.15   climat_inputS1eco6a_RCP85.txt 
+eco6a_ClayLoam         CLLO       49       1000           0.1           1            0.1              0.15   climat_inputS1eco6a_RCP85.txt 
+eco6a_Loam             LOAM       49       1000           0.1           1            0.1              0.15   climat_inputS1eco6a_RCP85.txt 
+
+

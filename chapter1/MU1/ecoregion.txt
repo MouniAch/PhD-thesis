@@ -1,0 +1,14 @@
+LandisData Ecoregions
+>> Map
+>> Active Code Name Description
+>> ------ ---- ----- -----------
+yes 11 eco5a_Clay  "ecoregion5a_Clay"
+yes 16 eco5a_ClayLoam  "ecoregion5a_ClayLoam"  
+yes 17 eco5a_Loam  "ecoregion5a_Loam"  
+yes 21 eco6a_Clay  "ecoregion6a_Clay"
+yes 24 eco6a_SandClayLoam  "ecoregion6a_SandClayLoam"  
+yes 26 eco6a_ClayLoam  "ecoregion6a_ClayLoam"  
+yes 27 eco6a_Loam  "ecoregion6a_Loam"  
+>> inactive cells
+no  65535  inactive1 "inactive1"
+no 127  inactive2   "inactive2"
