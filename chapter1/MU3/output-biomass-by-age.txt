@@ -1,0 +1,11 @@
+LandisData "Output Biomass-by-Age"
+Timestep 20
+
+MapNames output/biomassage/{species}-{ageclass}-{timestep}.img
+Species  	SB	ageclass1(0-20)	ageclass2(21-40)	ageclass3(41-60)	ageclass4(61-80)	ageclass5(81-100) 	ageclass6(>101)
+		BP	ageclass1(0-20)	ageclass2(21-40)	ageclass3(41-60)	ageclass4(61-80)	ageclass5(81-100)	ageclass6(>101)
+		ML	ageclass1(0-20)	ageclass2(21-40)	ageclass3(41-60)	ageclass4(61-80)	ageclass5(81-100)	ageclass6(>101)
+		EB	ageclass1(0-20)	ageclass2(21-40)	ageclass3(41-60)	ageclass4(61-80)	ageclass5(81-100)	ageclass6(>101)	
+		EN      ageclass1(0-20)	ageclass2(21-40)	ageclass3(41-60)	ageclass4(61-80)	ageclass5(81-100)	ageclass6(>101)
+		PG	ageclass1(0-20)	ageclass2(21-40)	ageclass3(41-60)	ageclass4(61-80)	ageclass5(81-100)	ageclass6(>101)
+		PT	ageclass1(0-20)	ageclass2(21-40)	ageclass3(41-60)	ageclass4(61-80)	ageclass5(81-100)	ageclass6(>101)
