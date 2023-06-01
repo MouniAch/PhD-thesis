@@ -1,0 +1,6 @@
+LandisData EcoregionParameters
+EcoregionParameters   SoilType   Latitude   RootingDepth   PrecLossFrac   LeakageFrac   PrecIntConst   SnowSublimFrac   ClimateFileName
+ecoregion5d_Sand                    SAND      50         1000           0.11           1            0.1              0.15   climat_inputS2eco5d_RCP85.txt 
+ecoregion5d_SandLoam                SALO      50         1000           0.33           1            0.1              0.15   climat_inputS2eco5d_RCP85.txt 
+ecoregion6h_Sand                    SAND      51         1000           0.11           1            0.1              0.15   climat_inputS2eco6h_RCP85.txt     
+ecoregion6h_SandLoam                SALO      51         1000           0.22           1            0.1              0.15   climat_inputS2eco6h_RCP85.txt     

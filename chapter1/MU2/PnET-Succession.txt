@@ -1,0 +1,17 @@
+LandisData "PnET-Succession"
+PnET-Succession Value
+>>-----------------------------
+Timestep 20
+StartYear 2010
+SeedingAlgorithm  WardSeedDispersal
+
+>>WardSeedDispersal
+>>NoDispersal
+>>UniversalDispersal
+>>PNEToutputsites         SitePnETOutputall.txt
+
+InitialCommunities initialcommunitiesS2.txt 
+InitialCommunitiesMap IC0-S2.img
+PnETGenericParameters PnETGenericParametersS2.txt
+PnETSpeciesParameters PnETSpeciesParametersS2.txt
+EcoregionParameters EcoregionParametersS2.txt
