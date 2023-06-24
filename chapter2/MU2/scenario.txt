@@ -6,7 +6,7 @@ EcoregionsMap ecoregionMU2.img
 CellLength 200 << m 
 >> Succession Extension Initialization File
 >> -------------------- -------------------
-PnET-Succession   PnET-SuccessionS2.txt
+PnET-Succession   PnET-Succession.txt
 >> Disturbance Extensions   Initialization File
 >> ----------------------   -------------------
 "Biomass Harvest"	    "BiomassHarvest-2.txt"
