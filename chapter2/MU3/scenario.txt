@@ -6,13 +6,13 @@ EcoregionsMap eco_MU3.img
 CellLength 200 << m 
 >> Succession Extension Initialization File
 >> -------------------- -------------------
-PnET-Succession   PnET-SuccessionS1.txt
+PnET-Succession   PnET-Succession.txt
 >> Disturbance Extensions   Initialization File
 >> ----------------------   -------------------
 "Biomass Harvest"	    "BiomassHarvest-2.txt"
 "Base Wind"          "BaseWindMU3.txt"
 "Base BDA"         "BDA-MU3.txt"
-"Base Fire"       "base-fire-S1-baseline.txt"
+"Base Fire"       "base-fire-S3-baseline.txt"
 DisturbancesRandomOrder  no
 >>    Other Extensions      Initialization File
 >> ----------------------   -------------------
