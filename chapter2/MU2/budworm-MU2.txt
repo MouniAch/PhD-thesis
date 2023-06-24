@@ -1,0 +1,58 @@
+LandisData "BDA Agent"
+BDAAgentName budworm
+BDPCalibrator 1
+SRDMode mean
+
+>>-------- Regional Outbreak Inputs -------------
+
+OutbreakPattern CyclicUniform<< CyclicNormal or CyclicUniform  <<  
+MaxInterval 32  << based on the historic, Annual Time step avg time interval between obks; Robert et al.2012 if RFnormal, or max interval if RFuniform  
+MinInterval 32	<< std dev. of interval between obks; Robert et al.2012 if RFnormal, or min interval if RFuniform
+TimeSinceLastEpidemic 10 << years; according to historic GEODATABASE 1923-2010, last epidemic was in 2004 in MU1 study area.
+TemporalType      pulse	<< pulse, variablepulse, or continuous. determines whether outbreaks are binary (either MinROS or MaxROS; TempType = “pulse”) or if the ROS can range between those values (TempType = “variable pulse”).
+MinROS 0 << regional obk severity;
+MaxROS 3 << maximum potential severity,
+
+>>---------------Dispersal Parameters-------------------------------------
+Dispersal no <<yes or no  ----Options are ‘no’ (synchronous) or ‘yes’ (asynchronous; dispersal turned on).
+DispersalRate 50000 <<defines the annual rate of dispersal in meters per year (meters/year). 50km/year - from Royama 1984, it's the min. avg SBW moths dispersal dist.(50-100km); defines the annual rate of dispersal in meters per year. we used the min for MU1 and MU2 and the max 100000 m  for MU3
+EpidemicThresh 0.5 <<Scheller el. uses.  minimum BDP required to start an epicenter | originally=0.5 
+InitialEpicenterNum 10 << originally of 0
+OutbreakEpicenterCoeff 0.01 <<Scheller el. uses. parameter corresponding with Equation 3 for epicenters that will start from within the outbreak zone that occurred at time = t-1. 
+OutbreakEpicenterThresh 0.0 <<optional , originally of 0, Scheller el. uses
+SeedEpicenter yes <<yes or no, determines if new epicenters will “seed” new outbreaks outside of current outbreak zones.
+SeedEpicenterCoeff 10  << boulanger et al. uses.  parameter corresponding with Equation 3 for new epicenters that will start outside of the outbreak zone defined at time = t-1.
+DispersalTemplate MaxRadius << MaxRadius, 4N,8N, 12N, or 24N
+
+
+>>-------- Neighborhood Resource Inputs-----------------
+NeighborFlag yes <<yes or no  (determines whether NRD is used in calculating BDP) 
+NeighborSpeedUp none <<none, 2x, 3x, or 4x none,  (will use every cell in neighborhood)
+NeighborRadius 1000 <<meters
+NeighborShape uniform <<Scheller el. uses=uniform. (could be also linear, or gaussian). defines the radial function used to calculate NRD. 
+NeighborWeight 0.5  <<0.01 - 100; parameter "NW" in eq.2; 0.01:NRD weight=0% of SRD,1:50%,10:91%,100=100% of SRD. 0.5 TRAMBLY el uses
+
+>>-------- Intensity Class Thresholds -----------------
+IntensityClass2_BDP 0.33  <<defines the BDP threshold to reach intensity class 2
+IntensityClass3_BDP 0.67  <<defines the BDP threshold to reach intensity class 3
+
+>>-----------------Ecoregion Modifiers----------------- optional
+>>optional parameters used to adjust SRD to reflect variation in the quality of food resources introduced by both site environment (i.e., land type) and recent disturbance.
+>>DisturbanceModifiers <<disactivated
+>>-----------------BDASpeciesParameters---------------
+BDASpeciesParameters
+>> | Susceptibility | Special
+>>Species MinorHost 2ndHost MajorHost | Class3 Class2 Class1 | Dead
+>>Name  Age  SRDProb Age SRDProb Age SRDProb | Age MortProb Age MortProb Age MortProb | Fuel?
+>> -------------------------------------------------------------------------------------------------
+SB 	0   0.25    20     0.5    40    1        0    0      20   0.42    50    0.85     yes
+EB 	0   0.18    20     0.36   40    0.72     0    0      20    0.15   50    0.42 	 yes
+EN      0   0.07    20     0.14   40    0.28    20    0.13   50   0.36    999    1       yes
+
+IgnoredSpecies
+BP
+PT
+PG
+ML
+<< SRD=probability of defoliation, VRD=probability of mortality from defoliation.
+<< SRD values determine intensity of defoliation (BDP) through SV, whereas intensity class(vuln.) determined from the relative

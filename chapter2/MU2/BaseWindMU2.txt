@@ -1,0 +1,25 @@
+LandisData "Base Wind"
+
+Timestep 20
+>> Wind Event Parameters
+>> Wind
+>> Max Mean Min Rotation
+>> Ecoregion Size Size Size Period
+>> --------- ---- ---- ---- --------
+ecoregion5d_Sand      12.73	2.01	1	8000
+ecoregion5d_SandLoam  15.20	3.85	1	5000
+ecoregion6h_Sand      13.48	1.17	1	8000
+ecoregion6h_SandLoam  25.59	4.45	1	1600
+<< max min and mean calculted form the historic (NFI geodatabase)
+<< rotation period or cycle is the mean time to disturb an area equivalent to the study area. around 40000 ha was disrubed in 80 year (1930-2010) so the rotation period is very high (we assumed 2000 years) 
+WindSeverities
+>> Cohort Age Mortality
+>> Severity % of longevity Probability 
+>> -------- -------------- -----------
+5 0% to 20%     0.05
+4 20% to 50%    0.1
+3 50% to 70%    0.5
+2 70% to 85%    0.85
+1 85% to 100%   0.95
+MapNames output/wind/severity-{timestep}.img
+LogFile output/log.csv
