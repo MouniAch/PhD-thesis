@@ -6,7 +6,6 @@ Scientific Reports journal.
 
 Chapters 1 and 2 were based on PnET succession V4.1.  Any switch to beta version V5 requires a recalibration of the input parameters 
 
-chapter3: Ameray A., Cavard X., Cyr D., Valeria O., Montoro Girona M., Bergeron Y.(2023). Two centuries of carbon budget projection in Eastern boreal forest under different management strategies and climate change. Ecography journal.
-
+chapter3: Ameray A., Cavard X., Cyr D., Valeria O., Montoro Girona M., Bergeron Y.(2023). Two centuries of carbon budget projection in Eastern boreal forest under different management strategies and climate change. 
 
  
