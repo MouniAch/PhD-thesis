@@ -218,7 +218,7 @@ HarvestImplementations
 >> scenarios
 >>  Mgmt Area   Prescription    Harvest Area    Begin Time  End Time
 >>  ---------   ------------    ------------    ----------  --------
->> put the harvest areas per prescription  from harvestareaMU2.txt files here
+>> put the harvested areas per prescription  from harvestareaMU2.txt files here
 
 > OUTPUTS
 PrescriptionMaps    	harvest/prescripts-{timestep}.img
