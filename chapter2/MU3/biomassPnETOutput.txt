@@ -1,0 +1,14 @@
+LandisData "Output-PnET"
+Timestep 20
+Species  All
+
+CohortBalance output/TotalCohorts.txt
+Biomass	output/biomass/{species}/Biomass_{timestep}.img
+AnnualPsn  output/AnnualPsn/{species}/AnnualPsn-{timestep}.img 
+>>Establishment output/Establishments/{species}/Est_{timestep}.img
+>>EstablishmentProbability output/EstabProb/{species}/EstProb-{species}{timestep}.img
+MortalityTable output/MortalityTable.csv
+>>Litter output/NonWoodyDebris/Litter-{timestep}.img
+>>LeafAreaIndex  output/LeafAreaIndex/lai_{timestep}.img
+>>MonthlyNetPsn output/MonthlyNetPsn/{species}/MonthlyNetPsn-{timestep}.img
+>>WoodyDebris output/WoodyDebris/WoodyDebris-{timestep}.img

@@ -1,0 +1,13 @@
+LandisData "Base BDA"
+Timestep 1
+MapNames bda/{agentName}-{timestep}.img
+BDPMapNames bda/{agentName}-DBP-{timestep}.img
+LogFile bda/bda-log.csv
+BDAInputFiles budworm-MU3.txt
+
+<<The BDA module is designed to simulate tree mortality following major outbreaks of insects 
+<<and/or disease, where major outbreaks are defined as those significant enough to influence forest 
+<<succession, fire disturbance, or harvest disturbance at landscape scales.
+
+
+
