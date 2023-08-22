@@ -1,4 +1,3 @@
  we used the latest official model release (V4.1).
- Any switch to the Beta V5 version requires a potential adjustment of our parameters,
-to achieve similar yield curves for each species during the calibration step. 
+ Any switch to the Beta V5 version requires a potential adjustment of our parameters to achieve similar yield curves for each species during the calibration step. 
 The use of Version 5 may raise the mortality rate, which means that the 4.1 version could lead to an overestimation of biomass carbon storage and an underestimation of the mortality rate caused by drought or competition.
