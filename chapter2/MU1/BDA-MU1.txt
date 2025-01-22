@@ -7,7 +7,7 @@ BDAInputFiles budworm-MU1.txt
 
 
 
-
+<< based on Boulnger et al 2017 values, SBW occurs each 32 years
 <<The BDA module is designed to simulate tree mortality following major outbreaks of insects 
 <<and/or disease, where major outbreaks are defined as those significant enough to influence forest 
 <<succession, fire disturbance, or harvest disturbance at landscape scales.
